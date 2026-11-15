@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Mini Store</title>
+    <link rel="stylesheet" href="store.css">
+    <style>
+        p {
+            color: #8b0000;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>The Corner Store</h1>
+        <p id="tagline" style="color: #006400;"><i>Five things I actually love, all in one place.</i></p>
+    </div>
+
+    <p>Welcome! Everything in this store is something I really use and love.</p>
+
+    <div class="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5">Featured Products</th>
+                </tr>
+                <tr>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/book.jpeg" alt="Hardcover books" width="60"></td>
+                    <td>Hardcover Books Set</td>
+                    <td>Rs. 1,800</td>
+                    <td rowspan="2">In Stock</td>
+                    <td>4.8 / 5</td>
+                </tr>
+                <tr>
+                    <td><img src="images/earbuds.jpeg" alt="Wireless earbuds" width="60"></td>
+                    <td>Wireless Earbuds</td>
+                    <td>Rs. 4,500</td>
+                    <td>4.5 / 5</td>
+                </tr>
+                <tr>
+                    <td><img src="images/biscuit.png" alt="Chocolate biscuits" width="60"></td>
+                    <td>Chocolate Biscuits</td>
+                    <td>Rs. 250</td>
+                    <td>Out of Stock</td>
+                    <td>4.2 / 5</td>
+                </tr>
+                <tr>
+                    <td><img src="images/keyboard.avif" alt="Mechanical keyboard" width="60"></td>
+                    <td>Mechanical Keyboard</td>
+                    <td>Rs. 7,500</td>
+                    <td>Limited Stock</td>
+                    <td>4.7 / 5</td>
+                </tr>
+                <tr>
+                    <td><img src="images/notebook.jpg" alt="Notebook set" width="60"></td>
+                    <td>Notebook Set</td>
+                    <td>Rs. 600</td>
+                    <td>Pre-order</td>
+                    <td>4.0 / 5</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Categories</h2>
+    <ul>
+        <li>Books
+            <ul>
+                <li>Self-Help</li>
+                <li>Fiction</li>
+            </ul>
+        </li>
+        <li>Food
+            <ul>
+                <li>Snacks</li>
+                <li>Beverages</li>
+            </ul>
+        </li>
+        <li>Gadgets
+            <ul>
+                <li>Audio</li>
+                <li>Keyboards</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Subscribe to Updates</h2>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            Gender:
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">I agree to receive updates</label>
+        </div>
+        <button type="submit">Subscribe</button>
+    </form>
+
+    <footer>
+        <h3>Quick Links</h3>
+        <div><a href="https://github.com/zayn-asif/26L-3073_IICT_Assignment3">My GitHub Repository</a></div>
+        <div><a href="../Q2/index.html">Previous Question's Page</a></div>
+    </footer>
+
+</body>
+</html>
